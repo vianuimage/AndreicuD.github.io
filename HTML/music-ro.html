@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portofoliu | Video</title>
+        <link href="favicon.ico" rel="icon" type="image/x-icon" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Personal Portfolio">
+        <link rel="stylesheet" href="/StyleSheets/stylesheet.css">
+        <link rel="stylesheet" href="/StyleSheets/sidenav.css">
+        <link rel="stylesheet" href="/StyleSheets/topnav.css">
+        <link rel="stylesheet" href="/StyleSheets/photosgrid.css">
+    </head>
+
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->    
+
+    <body>
+        <div class="topnav photosTitle">
+            <span class="topnavButton" onclick="openNav()">&#9776;</span>
+            <a class="centerTitle">Muzică</a>
+        </div>
+        <div class="sidebar" id="sidebar">
+            <a style="cursor:pointer" class="closebutton" onclick="closeNav()">&times;</a>
+            <a href="/HTML/index-ro.html">Acasă</a>
+            <a href="/HTML/photos-ro.html">Fotografii</a>
+            <a href="#">Muzică</a>
+            <a href="/HTML/contact-ro.html">Contactează</a>
+            <a href="/HTML/music-en.html" class="chlangbutton">
+                <img src="/steag-en.png" style="cursor:pointer; width:40px;">
+            </a>
+        </div>
+
+<!-------------------------------------------------------------->
+        <br>
+        <br>
+        <br>
+        <p style="text-align: center; font-size: 40px;">Orchestrală</p>
+        <audio controls style="margin-left:50%; transform: translateX(-50%);">
+            <source src="/Music/SadStrings.mp3" type="audio/mpeg">
+        </audio>
+        <audio controls style="margin-left:50%; transform: translateX(-50%);">
+            <source src="/Music/ChestieStringPoateFericita.mp3" type="audio/mpeg">
+        </audio>
+        <audio controls style="margin-left:50%; transform: translateX(-50%);">
+            <source src="/Music/Orchestra.mp3" type="audio/mpeg">
+        </audio>
+        <p style="text-align: center; font-size: 30px; margin: 10%; margin-top: 20px; margin-bottom: 20px;">
+            Fiecare cantec este facut din niste "bucati", asta insemnand ca poate fi 
+            lungit oricat este nevoie.</p>
+        <br>
+        <p style="text-align: center; font-size: 40px; margin-top: 20px;">Altele</p>
+        <audio controls style="margin-left:50%; transform: translateX(-50%);">
+            <source src="/Music/MetalSlip.mp3" type="audio/mpeg">
+        </audio>
+        <audio controls style="margin-left:50%; transform: translateX(-50%);">
+            <source src="/Music/ChitaraPirati.mp3" type="audio/mpeg">
+        </audio>
+        <script src="/Scripts/sidebarShowHide.js"></script>
+
+    </body>
+</html>

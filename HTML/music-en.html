@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio | Videos</title>
+        <link href="favicon.ico" rel="icon" type="image/x-icon" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Personal Portfolio">
+        <link rel="stylesheet" href="/StyleSheets/stylesheet.css">
+        <link rel="stylesheet" href="/StyleSheets/sidenav.css">
+        <link rel="stylesheet" href="/StyleSheets/topnav.css">
+        <link rel="stylesheet" href="/StyleSheets/photosgrid.css">
+    </head>
+
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->    
+
+    <body>
+        <div class="topnav photosTitle">
+            <span class="topnavButton" onclick="openNav()">&#9776;</span>
+            <a class="centerTitle">Music</a>
+        </div>
+        <div class="sidebar" id="sidebar">
+            <a style="cursor:pointer" class="closebutton" onclick="closeNav()">&times;</a>
+            <a href="/index.html">Home</a>
+            <a href="/HTML/photos-en.html">Photos</a>
+            <a href="#">Music</a>
+            <a href="/HTML/contact-en.html">Contact</a>
+            <a href="/HTML/music-ro.html" class="chlangbutton">
+                <img src="/steag-ro.png" style="cursor:pointer; width:40px;">
+            </a>
+        </div>
+
+<!-------------------------------------------------------------->
+        <br>
+        <br>
+        <br>
+        <p style="text-align: center; font-size: 40px;">Orchestra</p>
+        <audio controls style="margin-left:50%; transform: translateX(-50%);">
+            <source src="/Music/SadStrings.mp3" type="audio/mpeg">
+        </audio>
+        <audio controls style="margin-left:50%; transform: translateX(-50%);">
+            <source src="/Music/ChestieStringPoateFericita.mp3" type="audio/mpeg">
+        </audio>
+        <audio controls style="margin-left:50%; transform: translateX(-50%);">
+            <source src="/Music/Orchestra.mp3" type="audio/mpeg">
+        </audio>
+        <p style="text-align: center; font-size: 30px; margin: 10%; margin-top: 20px; margin-bottom: 20px;">
+            Every song is made out of "pieces", so it can be made as long as needed.</p>
+        <br>
+        <p style="text-align: center; font-size: 40px; margin-top: 20px;">Others</p>
+        <audio controls style="margin-left:50%; transform: translateX(-50%);">
+            <source src="/Music/MetalSlip.mp3" type="audio/mpeg">
+        </audio>
+        <audio controls style="margin-left:50%; transform: translateX(-50%);">
+            <source src="/Music/ChitaraPirati.mp3" type="audio/mpeg">
+        </audio>
+
+
+        <script src="/Scripts/sidebarShowHide.js"></script>
+
+    </body>
+</html>

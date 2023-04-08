@@ -94,11 +94,14 @@
 .gridPhotos {
   width:100%;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   .rowPhotos {
     display:grid;
   }
   .columnPhotos {
     flex:100%;
+  }
+  .slideshow-container {
+    margin: 40px;
   }
 }

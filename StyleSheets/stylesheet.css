@@ -42,48 +42,26 @@ body {
 .titleFirstPage .centered h2{
     font-size: 30px;
 }
+.photos p {
+    text-align: center;
+    font-size: 40px;
+}
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
     .photos .stickyTitle h2 {
-        font-size: 16px;
+        font-size: 40px;
     }
     .titleFirstPage .centered h1{
-        font-size: 30px;
-    }
-    .titleFirstPage .centered h2{
-        font-size: 10px;
-    }
-}
-@media screen and (max-width: 1600px) {
-    .photos .stickyTitle h2 {
-        font-size: 33px;
-    }
-    .titleFirstPage .centered h1{
-        font-size: 60px;
-    }
-    .titleFirstPage .centered h2{
-        font-size: 20px;
-    }
-}
-@media screen and (max-width: 1200px) {
-    .photos .stickyTitle h2 {
-        font-size: 20px;
-    }
-    .titleFirstPage .centered h1{
-        font-size: 45px;
+        font-size: 40px;
+        transform: translateY(-50%);
     }
     .titleFirstPage .centered h2{
         font-size: 15px;
+        transform: translateY(-350%);
     }
-}
-@media screen and (max-width: 800px) {
-    .photos .stickyTitle h2 {
-        font-size: 12px;
-    }
-    .titleFirstPage .centered h1{
-        font-size: 25px;
-    }
-    .titleFirstPage .centered h2{
-        font-size: 7px;
+    .photos p{
+        font-size: 30px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 }
